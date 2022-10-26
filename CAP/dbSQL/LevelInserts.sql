@@ -1,3 +1,4 @@
+\c CAP
 INSERT INTO public.levels (directory, name, score, originalscore, status, owaspcategory, sans25category) values
 ('bd6d9d317a0d584c7f0bd1388070c2b6','SQL Injection 1',65,65,'enabled','Injection','1'),
 ('4282001647cd27cb8464a971ac650f9b','SQL Injection Quotation',65,65,'enabled','Injection','1'),

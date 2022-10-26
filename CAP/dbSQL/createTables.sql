@@ -8,8 +8,9 @@
 -- dropdb CAP
 -- createdb -T template0 -E UTF8 CAP
 CREATE DATABASE "CAP" TEMPLATE template0 ENCODING UTF8;
-CREATE USER capuser;
+CREATE USER capuser PASSWORD '';
 
+\c CAP;
 DROP TABLE if exists claimed CASCADE;
 
 CREATE TABLE claimed
